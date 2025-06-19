@@ -18,14 +18,13 @@ if __name__ == "__main__":
         from setuptools import find_packages
 
         setup(
-            name="lcm_msgs",
+            name="lcm-msgs",
             version="0.1.1",
             description="LCM generated Python bindings for ROS based types",
             author="Dimensional",
             packages=find_packages(),  # This will find lcm_msgs and all subpackages
             install_requires=[
                 "lcm",
-                "foxglove-websocket",
             ],
             python_requires=">=3.1",
         )

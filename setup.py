@@ -23,8 +23,6 @@ if __name__ == "__main__":
             description="LCM generated Python bindings for ROS based types",
             author="Dimensional",
             packages=find_packages(),  # This will find lcm_msgs and all subpackages
-            install_requires=[
-                "lcm",
-            ],
+            install_requires=["lcm"],
             python_requires=">=3.1",
         )

@@ -8,7 +8,7 @@ from setuptools import setup
 # - python setup.py develop
 # - python setup.py install
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     try:
         # Use setuptools.setup which is defined by the pyproject.toml configuration
         setup()
@@ -16,6 +16,7 @@ if __name__ == '__main__':
         # Fallback setup for older versions that might not support pyproject.toml
         print("Warning: Using fallback setup. Consider upgrading pip and setuptools.")
         from setuptools import find_packages
+
         setup(
             name="lcm_msgs",
             version="0.1.1",
@@ -26,5 +27,5 @@ if __name__ == '__main__':
                 "lcm",
                 "foxglove-websocket",
             ],
-            python_requires=">=3.8",
+            python_requires=">=3.1",
         )

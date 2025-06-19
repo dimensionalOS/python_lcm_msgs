@@ -18,7 +18,7 @@ if __name__ == "__main__":
         from setuptools import find_packages
 
         setup(
-            name="lcm-msgs",
+            name="lcm_msgs",
             version="0.1.1",
             description="LCM generated Python bindings for ROS based types",
             author="Dimensional",

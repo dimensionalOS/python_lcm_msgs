@@ -10,7 +10,7 @@ authors = [
     {name = "Dimensional"}
 ]
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.1"
 dependencies = [
     "lcm",
     "foxglove-websocket",
